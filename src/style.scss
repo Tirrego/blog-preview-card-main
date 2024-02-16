@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+$Yellow: hsl(47, 88%, 63%);
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    background-color: $Yellow;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: $White;
+    padding: 1.3rem;
+    border-radius: 5%;
+    height: auto;
+    width: 23em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid $Black;
+    box-shadow: 8px 8px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+.img-top {
+    border-radius: 5%;
+}
+
+.img-bot {
+    width: 10%;
+}
+
+.learning-container{
+    margin: 1rem 0;
+}
+.learning {
+    background-color: $Yellow;
+    font-weight: 800;
+    padding: 0.5rem;
+    border-radius: 7px;
+    font-size: 0.8rem;
+}
+
+.heading {
+    margin: 1rem 0;
+}
+
+.text {
+    color: $Grey;
+    margin-bottom: 1.5rem;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.name {
+    font-weight: 800;
+}
